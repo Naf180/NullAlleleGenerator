@@ -6,9 +6,9 @@
 streamlit==1.28.0
 
 # Traitement des données
-pandas==2.0.3  # Version compatible avec numpy 1.24.3
+pandas==2.2.0  # Version compatible avec Python 3.13
 openpyxl==3.1.2
-numpy==1.24.3
+numpy==1.26.4  # Version compatible avec Python 3.13
 
 # ========== OPTIONAL DEPENDENCIES ==========
 # Pour visualisations avancées (décommenter si besoin)
@@ -25,6 +25,3 @@ pytest==7.4.3
 
 # Environnement
 python-dotenv==1.0.0
-
-# ========== SYSTEM REQUIREMENTS ==========
-# Python 3.9 ou 3.11 recommandé
